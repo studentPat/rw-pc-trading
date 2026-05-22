@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | RW PC Trading</title>
+    <link rel="icon" href="assets/images/logo.jpg" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+    <main class="page auth-shell">
+      <form class="auth-card" id="login-form">
+        <h3>Login</h3>
+        <div id="app-notice"></div>
+        <label class="field">
+          <span>Email</span>
+          <input type="email" name="email" required autocomplete="email" />
+        </label>
+        <label class="field">
+          <span>Password</span>
+          <input type="password" name="password" required autocomplete="current-password" />
+        </label>
+        <button class="btn btn-primary" type="submit">Login</button>
+        <p class="muted">
+          New customer? <a href="register.html">Create an account</a>. Forgot password?
+          <button class="btn btn-muted" id="reset-password-btn" type="button">Send Reset Link</button>
+        </p>
+      </form>
+    </main>
+    <div id="site-footer"></div>
+    <script type="module" src="js/pages/login.js"></script>
+  </body>
+</html>
