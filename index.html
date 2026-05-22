@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RW PC Trading | Computer Parts and Services</title>
+    <link rel="icon" href="assets/images/logo.jpg" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+    <main class="page">
+      <div class="container">
+        <section class="hero fade-up">
+          <h2>RW PC Trading</h2>
+          <p>
+            Brand-new computer and laptop parts, accessories, repair services, and installations for
+            builders, students, gamers, and growing offices in Valenzuela City.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-secondary" href="products.html">Browse Products</a>
+            <a class="btn btn-secondary" href="services.html">Our Services</a>
+            <a class="btn btn-primary" href="pc-builder.html">Build a PC</a>
+          </div>
+        </section>
+
+        <div id="app-notice"></div>
+
+        <section>
+          <div class="section-title">
+            <h3>Featured Products</h3>
+            <a class="btn btn-muted" href="products.html">View All</a>
+          </div>
+          <div class="grid grid-4" id="featured-products"></div>
+        </section>
+
+        <section>
+          <div class="section-title">
+            <h3>Featured Services</h3>
+            <a class="btn btn-muted" href="services.html">View All</a>
+          </div>
+          <div class="grid grid-3" id="featured-services"></div>
+        </section>
+
+        <section class="grid grid-2" style="margin-top:2rem;">
+          <div>
+            <div class="section-title" style="margin-top:0;">
+              <h3>PC Builder Preview</h3>
+            </div>
+            <p class="muted">
+              Match CPU sockets, RAM type, case form factor, cooler support, GPU clearance, and PSU
+              wattage before reserving parts.
+            </p>
+            <a class="btn btn-primary" href="pc-builder.html">Open PC Builder</a>
+          </div>
+          <div class="card">
+            <h4>Installment Options</h4>
+            <p>
+              Via SALMON FINANCING, CREDIT CARD PAYMENT (Mastercard, Visa, JCB) or E-Wallet Payment
+              (GCash, Maya, ShopeePay, GrabPay, AliPay, etc.).
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">
+            <h3>Customer Reviews</h3>
+            <a class="btn btn-muted" href="reviews.html">Write Review</a>
+          </div>
+          <div class="grid grid-3" id="home-reviews"></div>
+        </section>
+
+        <section>
+          <div class="section-title">
+            <h3>Contact RW PC Trading</h3>
+          </div>
+          <div class="grid grid-2">
+            <div class="card">
+              <h4>Visit or Message Us</h4>
+              <p><strong>Phone:</strong> 09687262353</p>
+              <p><strong>Email:</strong> rwpctrading@gmail.com</p>
+              <p>
+                <strong>Address:</strong> Unit 2B 2nd Floor One Santiago Place Building Gov I
+                Santiago St. Brgy Malinta Valenzuela City
+              </p>
+              <p><strong>Hours:</strong> Monday to Saturday, 9:00 AM to 7:00 PM</p>
+            </div>
+            <form class="card" id="feedback-form">
+              <h4>Send Feedback</h4>
+              <div class="form-grid">
+                <label class="field">
+                  <span>Name</span>
+                  <input name="name" autocomplete="name" />
+                </label>
+                <label class="field">
+                  <span>Contact</span>
+                  <input name="contact" autocomplete="email" />
+                </label>
+              </div>
+              <label class="field">
+                <span>Message</span>
+                <textarea name="message" required></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit">Submit Feedback</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="modal" id="inquiry-modal"></div>
+    <div id="site-footer"></div>
+    <script type="module" src="js/pages/home.js"></script>
+  </body>
+</html>

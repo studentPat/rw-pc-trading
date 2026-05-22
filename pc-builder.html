@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PC Builder | RW PC Trading</title>
+    <link rel="icon" href="assets/images/logo.jpg" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+    <main class="page">
+      <div class="container">
+        <div class="section-title">
+          <div>
+            <h3>PC Build Configurator</h3>
+            <p class="muted">Select compatible inventory parts and reserve the full build from one cart.</p>
+          </div>
+        </div>
+        <div id="app-notice"></div>
+        <div class="split">
+          <aside class="sidebar">
+            <h4>Build Summary</h4>
+            <div id="build-summary"></div>
+            <label class="field">
+              <span>Build Name</span>
+              <input id="build-name" value="My RW PC Build" />
+            </label>
+            <button class="btn btn-primary" id="save-build-btn" type="button">Save Build</button>
+            <button class="btn btn-secondary" id="add-build-cart-btn" type="button">Add Parts to Cart</button>
+          </aside>
+          <section>
+            <div id="builder-slots" class="grid"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div id="site-footer"></div>
+    <script type="module" src="js/pages/pc-builder.js"></script>
+  </body>
+</html>
