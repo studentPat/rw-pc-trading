@@ -119,9 +119,16 @@ textarea {
 
 .nav-links {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0.6rem;
   align-items: center;
+  white-space: nowrap;
+}
+
+#main-nav-links {
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .nav-link {
