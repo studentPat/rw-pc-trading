@@ -557,6 +557,17 @@ textarea {
   gap: 0.4rem;
 }
 
+.product-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product-card .product-actions {
+  margin-top: auto;
+  padding-top: 0.75rem;
+}
+
 .pcb-slot {
   border: 1px dashed #abc2ec;
   border-radius: 12px;

@@ -23,7 +23,7 @@ export function renderProductCard(product) {
         <span class="price">${formatCurrency(product.price)}</span>
         ${stockBadge(product.stock_status)}
       </div>
-      <div class="stat-row" style="margin-top:.75rem;">
+      <div class="stat-row product-actions">
         <button class="btn btn-primary" data-action="add-cart" ${disabled}>Add to Cart</button>
         <button class="btn btn-muted" data-action="inquire">Inquire Now</button>
         <button class="btn btn-secondary" data-action="details">Details</button>
